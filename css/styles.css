@@ -16,7 +16,7 @@ p {
 
 ul {
   margin: 0;
-  padding: 0;
+
   list-style: none;
 }
 
@@ -26,13 +26,12 @@ a {
 }
 
 button {
-  display: block;
   cursor: pointer;
   border: none;
   background-color: transparent;
-  padding: 0;
 }
 
+/* Header */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -43,7 +42,7 @@ button {
   text-transform: uppercase;
 }
 
-.accent {
+.header-accent_logo {
   color: #2e2f42;
 }
 
@@ -77,14 +76,18 @@ button {
   color: #404bbf;
 }
 
+/* Hero */
+
 .hero {
-  background-color: #4d5ae5;
+  background-color: #2e2f42;
 }
 
 .hero-title {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -95,12 +98,15 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: WHITE;
+  background-color: #4d5ae5;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
+/* Features */
 
 .features-title {
   font-weight: 500;
@@ -122,32 +128,53 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Team */
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.team-list_item {
+  background-color: #ffffff;
 }
 
 .team-list_name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: NAVY BLUE;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .team-list_job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
+/* Portfolio */
+
 .portfolio-title {
+  text-align: center;
+  text-transform: capitalize;
   font-size: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -155,18 +182,31 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: NAVY BLUE;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list_text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-accent_logo {
+  color: #f4f4fd;
 }
 
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
