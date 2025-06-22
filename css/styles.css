@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+}
+
+.accent {
+  color: #4d5ae5;
+}
+
+.header-list_item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+
+.header-info_item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header-info_item:hover,
+.header-info_item:focus {
+  color: #4d5ae5;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: WHITE;
+}
+
+.features_list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: NAVY BLUE;
+}
+
+.features-list_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+.team-list_name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: NAVY BLUE;
+}
+
+.team-list_job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.portfolio-title {
+  font-size: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+
+.portfolio-list_subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: NAVY BLUE;
+}
+
+.portfolio-list_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
