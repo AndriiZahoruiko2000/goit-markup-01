@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -33,12 +33,6 @@ button {
   padding: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -59,6 +53,11 @@ img {
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+}
+
+.header-list_link:hover,
+.header-list_link:focus {
+  color: #404bbf;
 }
 
 .header-info {
